@@ -1,10 +1,11 @@
-header  {background-image: URL('http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png');
-  
-  width: 80%;
-  height:360px;
-  background-size: 100%;
-  text-align: center;
-  background-position: center;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans&family=Merriweather&display=swap');
+
+div.stranka { 
+  width: 1280px;
+}
+
+header{
+  width: 1280px;
 }
 
 main {
@@ -14,8 +15,8 @@ main {
 blockquote {
   background: gray;
   font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
   color: white;
-  padding: 20px;
   text-align: center;
 }
 
@@ -31,4 +32,10 @@ h3 {font-weight: ;}
 
 ul {
   list-style-type: square;
+  font-weight: normal;
+}
+
+
+span.uvod {
+  font-weight: 700;
 }
